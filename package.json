@@ -1,0 +1,40 @@
+{
+  "name": "babel-plugin-transform-private-class-members",
+  "version": "0.1.0",
+  "description": "Mangle JavaScript private class members",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardDobron/babel-plugin-transform-private-class-members.git"
+  },
+  "author": "Richard Dobroň",
+  "keywords": [
+    "babel-plugin"
+  ],
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint --max-warnings 0 --ignore-path .gitignore ."
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-syntax-class-properties": "^7.12.13",
+    "chai": "^4.2.0",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "mocha": "^8.1.1",
+    "prettier": "^2.0.5"
+  },
+  "bugs": {
+    "url": "https://github.com/richardDobron/babel-plugin-transform-private-class-members/issues"
+  },
+  "homepage": "https://github.com/richardDobron/babel-plugin-transform-private-class-members#readme",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
+}
